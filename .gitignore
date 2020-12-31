@@ -1,0 +1,9 @@
+node_modules/
+build/
+activity.json
+logs/
+tracker.db
+tsconfig.tsbuildinfo
+accounts.txt
+accounts.rbxid.txt
+robloxaccgen.js

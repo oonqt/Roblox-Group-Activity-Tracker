@@ -1,0 +1,99 @@
+.navbar-logo {
+    margin-right: 10px;
+    height: 20px;
+}
+
+.media-content {
+    overflow-y: hidden;
+}
+
+.footer {
+    padding: 1.5rem 0px 1.5rem 0px !important;
+    margin-top: 20px;
+}
+
+.navbar {
+    background-color: #fafafa !important;
+    width: 100%;
+    top: 0;
+}
+
+.navbar-menu:not(.is-active) > .navbar-start > .navbar-item:hover {
+    background-color: #edebeb !important;
+}
+
+.column {
+    padding: 1.25rem 1.5rem 1.25rem 1.5rem !important;
+    padding-top: 2rem !important;
+}   
+
+.columns {
+    margin-right: 0rem !important;
+    margin-left: 0rem !important;
+}
+
+.card {
+    margin-top: 10px;
+    border-radius: 2.5px;
+}
+
+.card-content {
+    padding: 1rem !important;
+}
+
+input[type="text"] {
+    padding: .175rem .5rem;
+    color: #495057;
+    border: 1px solid #ced4da !important;
+    border-radius: .25rem;
+    outline: none;
+    box-shadow: 0.5px 0.5px 2.5px rgba(10, 10, 10, 0.1), 0 0 0 0px rgba(10, 10, 10, 0.1);
+}
+
+select {
+    color: #495057 !important;
+    border: 1px solid #ced4da !important;
+    outline: none !important;
+    box-shadow: 0.5px 0.5px 2.5px rgba(10, 10, 10, 0.1), 0 0 0 0px rgba(10, 10, 10, 0.1) !important;
+}
+
+input[type="text"]:focus, select:focus {
+    box-shadow: 0 0 0 0.15em rgba(206, 212, 218, 0.5) !important;
+    outline: none;
+}
+
+.message {
+    margin-top: 10px;
+}
+
+.badge {
+    display: inline-block; 
+    margin-left: 10px;
+    padding: .15em .35em;
+    font-size: '.75em';
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    vertical-align: baseline; 
+    border-radius: .25rem;
+}
+
+.dropdown {
+    float: right;
+}
+
+.controls {
+    margin-bottom: 5px !important;
+}
+
+.controls > .control > input {
+    height: 35px !important;
+}
+
+.icon {
+    z-index: 10;
+    position: fixed;
+    bottom: 2vh;
+    right: 5%;
+}
